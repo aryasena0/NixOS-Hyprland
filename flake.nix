@@ -14,6 +14,7 @@
   outputs = inputs @ {
     self,
     nixpkgs,
+    nvf,
     ...
   }: let
     system = "x86_64-linux";
