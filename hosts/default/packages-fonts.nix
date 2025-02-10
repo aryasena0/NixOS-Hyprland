@@ -15,6 +15,9 @@ in {
 
   environment.systemPackages =
     (with pkgs; [
+      firecracker
+      firectl
+      firejail
       # System Packages
       baobab
       btrfs-progs
@@ -80,7 +83,6 @@ in {
       wlogout
       xarchiver
       yad
-      yazi
       yt-dlp
 
       #waybar  # if wanted experimental next line
