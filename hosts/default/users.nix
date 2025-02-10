@@ -25,7 +25,7 @@ in {
       ];
 
       # define user packages here
-      packages = with pkgs; [telegram-desktop obs-studio bottles];
+      packages = with pkgs; [telegram-desktop obs-studio bottles zed-editor ghq gh];
     };
 
     defaultUserShell = pkgs.zsh;

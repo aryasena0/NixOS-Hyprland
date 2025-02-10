@@ -102,6 +102,33 @@ in {
   ];
 
   programs = {
+    # nvf = {
+    #   enable = true;
+    #   settings = {
+    #     vim = {
+    #                 lsp.enable = true;
+    #       theme = {
+    #         enable = true;
+    #         name = "catppuccin";
+    #         style = "dark";
+    #       };
+    #       languages = {
+    #         enableLSP = true;
+    #         enableTreesitter = true;
+    #
+    #         nix.enable = true;
+    #         ts.enable = true;
+    #         rust.enable = true;
+    #         go.enable = true;
+    #         gleam.enable = true;
+    #       };
+    #       statusline.lualine.enable = true;
+    #       telescope.enable = true;
+    #       autocomplete.nvim-cmp.enable = true;
+    #     };
+    #   };
+    # };
+
     hyprland = {
       enable = true;
       #package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland; #hyprland-git
@@ -114,7 +141,6 @@ in {
     firefox.enable = true;
     git.enable = true;
     nm-applet.indicator = true;
-    neovim.enable = true;
 
     thunar.enable = true;
     thunar.plugins = with pkgs.xfce; [

@@ -4,6 +4,7 @@
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
+    nvf.url = "github:notashelf/nvf";
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     #hyprland.url = "github:hyprwm/Hyprland"; # hyprland development
     ags.url = "github:aylur/ags/v1"; # aylurs-gtk-shell-v1
@@ -34,6 +35,7 @@
         };
         modules = [
           ./hosts/${host}/config.nix
+          nvf.nixosModules.${system}.default
           #inputs.distro-grub-themes.nixosModules.${system}.default #for grub themes
         ];
       };
