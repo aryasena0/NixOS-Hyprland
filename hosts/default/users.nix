@@ -78,8 +78,8 @@ in {
       shellAliases = {
         vim = "nix run github:notashelf/nvf#maximal";
         svim = "sudo vim";
-        fr = "nh os switch --hostname ${host} /home/${username}/NixOS-Hyprland";
-        fu = "nh os switch --hostname ${host} --update /home/${username}/NiXOS-Hyprland";
+        fr = "nh os switch --hostname lalalainix /home/${username}/NixOS-Hyprland";
+        fu = "nh os switch --hostname lalalainix --update /home/${username}/NiXOS-Hyprland";
         zu = "sh <(curl -L https://gitlab.com/aryasena0/NixOS-Hyprland/-/raw/main/install.sh)";
         ncg = "nix-collect-garbage --delete-old && sudo nix-collect-garbage -d && sudo /run/current-system/bin/switch-to-configuration boot";
         cat = "bat";
