@@ -4,6 +4,7 @@
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
+    zen-browser.url = "github:0xc000022070/zen-browser-flake";
     #hyprland.url = "github:hyprwm/Hyprland"; # hyprland development
     ags.url = "github:aylur/ags/v1"; # aylurs-gtk-shell-v1
     #distro-grub-themes.url = "github:AdisonCavani/distro-grub-themes"; #for grub themes
