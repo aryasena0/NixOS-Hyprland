@@ -18,6 +18,8 @@ in {
       firecracker
       firectl
       firejail
+      flintlock
+            
       # System Packages
       baobab
       btrfs-progs

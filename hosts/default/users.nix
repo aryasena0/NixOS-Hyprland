@@ -25,7 +25,7 @@ in {
       ];
 
       # define user packages here
-      packages = with pkgs; [telegram-desktop obs-studio bottles zed-editor ghq gh yazi];
+      packages = with pkgs; [telegram-desktop obs-studio bottles zed-editor ghq gh lazygit yazi];
     };
 
     defaultUserShell = pkgs.fish;

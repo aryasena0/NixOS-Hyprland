@@ -110,7 +110,6 @@ in {
   drivers.nvidia.enable = true;
   drivers.nvidia-prime = {
     enable = true;
-    sync.enable = true;
     amdgpuBusID = "PCI:6:0:0";
     nvidiaBusID = "PCI:1:0:0";
   };
